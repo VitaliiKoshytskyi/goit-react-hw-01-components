@@ -1,0 +1,36 @@
+.online {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: greenyellow;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.offline {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 300px;
+  border: 2px solid;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
